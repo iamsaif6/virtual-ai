@@ -2,9 +2,9 @@
 
 <br>
 
-<img src="https://github.com/iamsaif6/kallyas/blob/master/Screenshot%202021-06-02%20at%2012-06-48%20Kallyas%20Multi%20Page%20Website.png" width="800px" />
+<img src="https://github.com/iamsaif6/virtual-ai/blob/master/Screenshot%202021-06-05%20at%2011-30-32%20VirtualUPAi.png" width="800px" />
 
-> ## For live preview : [Click Here](https://iamsaif6.github.io/kallyas/ "Kallyas")
+> ## For live preview : [Click Here](https://iamsaif6.github.io/virtual-ai/ "Virtul AI")
 
  <br>
 
