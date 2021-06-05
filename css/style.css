@@ -1,0 +1,450 @@
+
+body {margin: 0px; padding: 0px;}
+*, body {font-family: 'futurabook', sans-serif; color: #000000;}
+
+/**************************Fonts********************/
+
+@font-face {
+    font-family: 'futurabold';
+    src: url('../fonts/futura_bold_font-webfont.woff2') format('woff2'),
+         url('../fonts/futura_bold_font-webfont.woff') format('woff'),
+         url('../fonts/futura_bold_font-webfont.ttf') format('truetype'),
+         url('../fonts/futura_bold_font-webfont.svg#futurabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'futurabook';
+    src: url('../fonts/futura_book_font-webfont.woff2') format('woff2'),
+         url('../fonts/futura_book_font-webfont.woff') format('woff'),
+         url('../fonts/futura_book_font-webfont.ttf') format('truetype'),
+         url('../fonts/futura_book_font-webfont.svg#futurabook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futuramedium';
+    src: url('../fonts/futura_medium_bt-webfont.woff2') format('woff2'),
+         url('../fonts/futura_medium_bt-webfont.woff') format('woff'),
+         url('../fonts/futura_medium_bt-webfont.ttf') format('truetype'),
+         url('../fonts/futura_medium_bt-webfont.svg#futuramedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'futuralight';
+    src: url('../fonts/futura_light_font-webfont.woff2') format('woff2'),
+         url('../fonts/futura_light_font-webfont.woff') format('woff'),
+         url('../fonts/futura_light_font-webfont.ttf') format('truetype'),
+         url('../fonts/futura_light_font-webfont.svg#futuralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/***************************END*************************/
+
+h2 {
+	font-family: 'futurabold';
+	color: #3b3d40;
+}
+
+.headercontainer.bg-primary {background-color: #1b4da8!important;}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: 'futuramedium';
+}
+.navbar-light .navbar-toggler {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    border: 0px;
+    padding: 0;
+}
+button:focus {outline: none;}
+.navbar-toggler-icon {background-size: 40px 40px;}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .active>.nav-link {
+    color: #fff; text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .active>.nav-link {position: relative;}
+.navbar-light .navbar-nav .nav-link:hover:before, .navbar-light .navbar-nav .active>.nav-link:before {
+    height: 2px;
+    background: #fff;
+    bottom: 5px;
+    /* width: 100%; */
+    content: "";
+    position: absolute;
+    left: .5rem;
+    right: .5rem;
+}
+
+.navbar-brand img {max-width: 250px;}
+.header-right ul li a {padding:.8rem .5rem; color: #fff;}
+.header-right ul li a:hover {text-decoration: none;}
+.bannercontainer {padding: 120px 0;}
+.bannercontainer h1 {color: #fff; font-size: 58px;font-family: 'futurabold';}
+.bannercontainer p {color: #fff; font-size: 34px;line-height: 34px;}
+.section-padd {padding-bottom: 70px; padding-top: 70px;}
+.section-padd-2 {padding-bottom: 70px;}
+.section-sty-1 h2 {font-family: 'futuramedium'; color: #3b3d40; font-size: 34px;text-transform: none;}
+.section-sty-1 p {color: #656b6f; font-size: 26px; line-height: 30px;}
+
+.btn-primary {color: #fff;background-color: #2e71f2;border-color: #2e71f2;border-radius: 80px;padding: 15px 50px;text-transform: uppercase;font-family: 'futuramedium';}
+
+.bordersty-1 {max-width: 700px; height: 10px; background: #2e71f2; margin:20px auto 0 auto;}
+.headingsty-1 {font-size: 38px;font-family: 'futuramedium'; color: #3b3d40; text-transform: uppercase;}
+.headingsty-1 .firstcolor {color: #0077b7; text-transform: none;font-family: 'futuramedium';font-weight: bold;}
+.headingsty-1 .secondcolor {color: #4eb2dd; text-transform: none;font-family: 'futuramedium';font-weight: bold;}
+.headingsty-1 .thirdcolor {color: #ffb30b; text-transform: none;font-family: 'futuramedium';font-weight: bold;}
+
+.liststy-1 li {color: #156ec7;font-family: 'futurabold'; padding: 30px; font-size:18px;}
+
+.bgblue {background:#3171e5 url(../img/bg.png) no-repeat right bottom; color: #fff;}
+.bgblue h2 {color: #fff; font-family: 'futuramedium'; text-transform: uppercase; font-size: 36px;}
+.bgblue h3 {color: #f7c244; font-family: 'futuramedium'; text-transform: uppercase; font-size: 36px; margin-top: 80px;}
+.bgblue p {color: #fff; font-family: 'futuramedium'; font-size: 22px;}
+.bgblue ul {margin-left: 50px;}
+.bgblue ul li {color: #fff; font-size: 22px; text-align: left;}
+.benefitscon h2 {text-transform: uppercase; text-align: center; margin-bottom: 80px;}
+.benifitsicons {position: absolute; left: 0; top: 0;}
+.benifitstxt {padding-left: 67px; min-height: 90px; font-size: 16px;}
+.benifitstxt h3 {color: #156ec7;font-family: 'futurabold'; font-size: 18px;}
+.addition-fea .card h3 {font-size: 22px; font-family: 'futurabold'; color: #3171e5; text-transform: uppercase;}
+.addition-fea .card p {font-size: 20px; color: #656b6f;}
+.addition-fea .card {min-height: 388px;}
+.ourmisson h2 {text-transform: none; font-size: 38px;}
+.ourmisson p {font-size: 24px; line-height: 26px; color: #656b6f;}
+.conhead {text-transform: uppercase;font-family: 'futurabold';}
+.conhead img {width: 250px; margin-top: 20px;}
+.conform {max-width: 500px; width: 100%; margin: 50px auto 0 auto;}
+.conform .form-control {background: #eceded; border: 0px; border-radius: 0px;}
+.conform textarea.form-control {height: 150px;}
+.conform .btn-primary { padding: 7px 50px;}
+.contactcontainer {box-shadow: 0 0 15px #949191;}
+.addresscon h6 {font-family: 'futurabold'; font-size: 22px;}
+.addresscon p {font-size: 20px;}
+
+
+.addresscon.vanaddress h6 {font-family: 'futurabold'; font-size: 28px;}
+.addresscon.vanaddress p {font-size: 26px;}
+
+.locimg {width: 240px; height: 240px; position:relative; margin: 0 auto;}
+.locimg {width: 240px; height: 240px; position:relative; margin: 0 auto;}
+.locationname {position: absolute; left: 0; right: 0; top: 40%; color: #fff; font-size: 36px;}
+
+
+.vanaddress .locimg {width: 300px; height: 300px; position:relative; margin: 0 auto;}
+.vanaddress .locationname {position: absolute; left: 0; right: 0; top: 40%; color: #fff; font-size: 36px;}
+
+footer {background: #48494b; padding-top: 80px; color: #fff;}
+footer h2 {font-size: 45px; color: #fff; text-transform: none;}
+footer p {color: #bebebe; font-size: 18px;}
+.susbscribe .form-control {width: 330px;background: #636466;border: 0; color: #fff;}
+.susbscribe .btn-primary {padding: 7px 30px; text-transform: uppercase;}
+.footerform {max-width: 510px; margin: 40px auto 0 auto;}
+
+.susbscribe .form-control::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+.susbscribe .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #fff;
+}
+
+.susbscribe .form-control::-ms-input-placeholder { /* Microsoft Edge */
+ color: #fff;
+}
+
+.footebottom {background: #3b3d40; padding: 20px 0; margin-top: 50px;}
+.footebottom p {opacity: 0.3; color: #fff; text-align: left; font-size: 12px; margin-bottom: 0px;}
+.footebottom p a {color: #fff; text-align: left; font-size: 12px;}
+.footebottom .header-right {text-align: right; padding-top: 20px;}
+.footebottom .header-right ul {margin-bottom: 0px;}
+.footebottom .header-right p {text-align: right;}
+.imgsty img {max-width: 70%;}
+.todayssho p {font-family: 'futuramedium'; font-size: 18px; color: #1d1e1f; margin-top: 20px;margin-left: 55px; text-align: left;}
+.todayshopper h2 {margin-bottom: 80px;}
+.shoppingjoubox h4 {color: #646464; font-size: 28px;}.shoppingjoubox h3 {color: #2473ea;font-family: 'futurabold'; font-size:34px;}
+.shoppingjoubox p {font-size: 18px;}
+.contactcon {padding-left: 100px;}
+.contactcon p {font-size: 18px;font-family: 'futuramedium';}
+.footerlogo img {max-width: 200px; margin-top: 13px;}
+
+/****************menu*******************/
+
+.animated-icon1, .animated-icon2, .animated-icon3 {
+width: 30px;
+height: 20px;
+position: relative;
+margin: 0px;
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+cursor: pointer;
+}
+
+.animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+display: block;
+position: absolute;
+height: 3px;
+width: 100%;
+border-radius: 9px;
+opacity: 1;
+left: 0;
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+-webkit-transition: .25s ease-in-out;
+-moz-transition: .25s ease-in-out;
+-o-transition: .25s ease-in-out;
+transition: .25s ease-in-out;
+}
+
+.animated-icon1 span {
+background: #ffffff;
+}
+
+.animated-icon2 span {
+background: #ffffff;
+}
+
+.animated-icon3 span {
+background: #ffffff;
+}
+
+.animated-icon1 span:nth-child(1) {
+top: 0px;
+}
+
+.animated-icon1 span:nth-child(2) {
+top: 10px;
+}
+
+.animated-icon1 span:nth-child(3) {
+top: 20px;
+}
+
+.animated-icon1.open span:nth-child(1) {
+top: 11px;
+-webkit-transform: rotate(135deg);
+-moz-transform: rotate(135deg);
+-o-transform: rotate(135deg);
+transform: rotate(135deg);
+}
+
+.animated-icon1.open span:nth-child(2) {
+opacity: 0;
+left: -60px;
+}
+
+.animated-icon1.open span:nth-child(3) {
+top: 11px;
+-webkit-transform: rotate(-135deg);
+-moz-transform: rotate(-135deg);
+-o-transform: rotate(-135deg);
+transform: rotate(-135deg);
+}
+
+/* Icon 3*/
+
+.animated-icon2 span:nth-child(1) {
+top: 0px;
+}
+
+.animated-icon2 span:nth-child(2), .animated-icon2 span:nth-child(3) {
+top: 10px;
+}
+
+.animated-icon2 span:nth-child(4) {
+top: 20px;
+}
+
+.animated-icon2.open span:nth-child(1) {
+top: 11px;
+width: 0%;
+left: 50%;
+}
+
+.animated-icon2.open span:nth-child(2) {
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+
+.animated-icon2.open span:nth-child(3) {
+-webkit-transform: rotate(-45deg);
+-moz-transform: rotate(-45deg);
+-o-transform: rotate(-45deg);
+transform: rotate(-45deg);
+}
+
+.animated-icon2.open span:nth-child(4) {
+top: 11px;
+width: 0%;
+left: 50%;
+}
+
+/* Icon 4 */
+
+.animated-icon3 span:nth-child(1) {
+top: 0px;
+-webkit-transform-origin: left center;
+-moz-transform-origin: left center;
+-o-transform-origin: left center;
+transform-origin: left center;
+}
+
+.animated-icon3 span:nth-child(2) {
+top: 10px;
+-webkit-transform-origin: left center;
+-moz-transform-origin: left center;
+-o-transform-origin: left center;
+transform-origin: left center;
+}
+
+.animated-icon3 span:nth-child(3) {
+top: 20px;
+-webkit-transform-origin: left center;
+-moz-transform-origin: left center;
+-o-transform-origin: left center;
+transform-origin: left center;
+}
+
+.animated-icon3.open span:nth-child(1) {
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);
+top: 0px;
+left: 8px;
+}
+
+.animated-icon3.open span:nth-child(2) {
+width: 0%;
+opacity: 0;
+}
+
+.animated-icon3.open span:nth-child(3) {
+-webkit-transform: rotate(-45deg);
+-moz-transform: rotate(-45deg);
+-o-transform: rotate(-45deg);
+transform: rotate(-45deg);
+top: 21px;
+left: 8px;
+}
+
+.modal-footer .btn-primary {padding: 7px 20px; font-size: 14px;}
+.modal-footer .btn-secondary {border-radius: 50px;text-transform: uppercase;font-size: 14px;font-family: 'futuramedium';}
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-family: futurabold;
+}
+.ourteamrow .row {margin-left: 0px; margin-right: 0px;}
+.ourteamrow .col-lg-4, .ourteamrow .col-md-4 {padding-left: 0px; padding-right: 0px;}
+.teambox {background-color: #000; min-height: 300px; position: relative;}
+.teamnames {position: absolute; bottom: 0px; left: 0; right: 0; text-align: center;padding: 30px 0;background: rgba(0, 0, 0, 0.63); display: none;}
+.teambox h4 {font-size: 28px; color: #fff;font-family: 'futurabold';}
+.teambox p {color: #fff;}
+.ourteamrow {border-bottom: 1px solid #ccc;}
+.teamnames .btn-primary {padding: 7px 20px;}
+.teamnames .list-inline {margin-bottom: 0px; margin-top: 20px;}
+.teamnames .list-inline li a {color: #fff; font-size: 24px;}
+.teamnames .list-inline li a:hover {text-decoration: none; color:#2473ea; }
+.bottomshadow {box-shadow: 0 10px 30px #ccc; position: relative; z-index: 1;}
+.teamtxt h3 {font-size: 40px;font-family: 'futuramedium';}
+.teamtxt h6 {font-family: 'futuramedium'; font-style: italic; margin-bottom: 30px; color: #3b3b3b; font-size: 20px;}
+.teamtxt p {font-size: 18px;}
+.ourteamrow {background: #fff; border-bottom: 0px;}
+.teamtxt.font34 h3 {font-size: 34px;}
+.minh990 {min-height: 830px;padding-bottom: 100px !important;}
+.linkedinpos {
+    position: absolute;
+    bottom: 35px;
+    height: 50px;
+    margin: 0 auto;
+    left: 20px;
+    width: 110px;
+}
+.ourteamcontainer  {max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;}
+.minheight-2 {min-height: 587px;}
+
+/*****************************************/
+
+@media (min-width:1120px) and (max-width:1280px) {
+	.minh990 {
+    min-height: 851px;
+}
+	.minheight-2 {min-height: 615px;}
+}
+
+@media (min-width:1024px) and (max-width:1120px) {
+	.minh990{min-height: 1130px;}
+		.addition-fea .card {
+    min-height: 478px;
+}
+}
+
+@media (max-width:1023px) {
+	.addition-fea .card {min-height: inherit;}
+	.minh990 {min-height: inherit;}
+	.bannercontainer p br {
+    display: none;
+}
+}
+
+@media (max-width:767px) {
+	.susbscribe .form-control {width: 200px;}
+	.navbar-light .navbar-nav .nav-link {font-size: 36px;}
+	.header-right ul li a {font-size: 26px;}
+	/*.susbscribe .btn-primary {padding: 7px 10px; margin-left:10px;}*/
+	.footebottom .header-right, .footebottom .header-right p {text-align: left;}
+	.footebottom br, .ourmisson br, .mobile-break br, .bannercontainer br {display: none;}
+	.ourmisson h2, h2 {font-size: 28px;}
+	.bgblue h3 {font-size: 26px;}
+	.bgblue ul li, .bgblue p {font-size: 20px;}
+	.headingsty-1 {font-size: 32px;}
+	.bannercontainer h1 {font-size: 48px;}
+	.bannercontainer p {font-size: 26px;}
+    .bannercontainer {padding: 80px 0;}
+    .navbar-brand img {max-width: 220px;}
+	.todayssho {text-align: center;}
+	.contactcon {
+    padding-left: 20px;
+}
+    .navbar-collapse {position: fixed; top: 0; left: 0; width: 100%; height: 100% !important;background:rgba(0, 123, 255, 0.90);padding: 50px 30px;
+    z-index: 2;
+    }
+	.navbar-light .navbar-toggler {position: relative; z-index: 9;}
+	.todayssho p {text-align: center; margin-left: 0px;}
+	.bgblue ul {
+    margin-left: 20px;
+}
+	.ourteamrow {border-bottom: 0px;}
+	.teambox {border-bottom: 1px solid #ccc;}
+	.footerlogo img {margin-bottom: 20px;}
+}
+

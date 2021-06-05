@@ -1,0 +1,48 @@
+html, body {
+    height: 100% !important;
+    background-color: #f8f9fa;    
+}
+
+.login-logo,
+.register-logo {
+    margin-bottom: 25px;
+
+}
+
+
+
+.login-box,
+.register-box {
+    width: 360px;
+    margin: 7% auto
+}
+
+@media (max-width:768px) {
+    .login-box,
+    .register-box {
+        width: 90%;
+        margin-top: 20px
+    }
+}
+
+.login-box-body,
+.register-box-body {
+    background: #fff;
+    padding: 20px;
+    border-top: 0;
+    color: #666;
+    box-shadow: 0 30px 60px 0 grey;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+.login-box-msg,
+.register-box-msg {
+    margin: 0;
+    text-align: center;
+    padding: 0 20px 20px 20px;
+    font-size: 20px;
+    color: navy
+}
+
